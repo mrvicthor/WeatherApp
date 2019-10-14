@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  font-family: sans-serif;
+  background: skyblue;
+}
+.location {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.weather-forecast {
+  margin-left: 18px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.weather-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.current-temperature {
+  margin-top: 50px;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.weather-info h5 {
+  margin-top: 10px;
+}
+
+.temperature-degree{
+  font-size: 40px;
+}
+.temperature-description{
+  font-size: 20px;
+}
+.icon{
+  height: 170px;
+  width: 170px;
+}
